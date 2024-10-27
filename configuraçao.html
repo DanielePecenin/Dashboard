@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - Salão de Beleza</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><span class="icon">🏠</span> Início</a></li>
+                <li><a href="estatisticas.html"><span class="icon">📊</span> Estatísticas</a></li>
+                <li><a href="configuraçao.html"><span class="icon">⚙️</span> Configurações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <ul>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="relatorios.html">Relatórios</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1>Configurações</h1>
+        
+        <div class="settings-section">
+            <h2>Configurações do Usuário</h2>
+            <form>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" placeholder="Digite seu nome de usuário" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+
+                <label for="language">Idioma:</label>
+                <select id="language" required>
+                    <option value="pt">Português</option>
+                    <option value="en">Inglês</option>
+                </select>
+
+                <button type="submit">Salvar Alterações</button>
+                <button type="button">Cancelar</button> <!-- Botão adicional -->
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Salão de Beleza - Todos os direitos reservados.</p>
+        <nav>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Contato</a>
+            <a href="#">Política de Privacidade</a>
+        </nav>
+    </footer>
+</body>
+</html>
