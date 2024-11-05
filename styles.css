@@ -1,6 +1,6 @@
 
 :root {
-    --color-primary: #ca0b0b; 
+    --color-primary: #ecb7b7; 
     --color-secondary: #ecb7b7; 
     --color-accent: #e15656; 
     --color-bg: #e1bfbfe0; 
@@ -189,7 +189,6 @@ footer {
     color: var(--color-white);
     padding: var(--padding-footer);
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -198,7 +197,7 @@ footer nav {
     display: flex;
     gap: 15px;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 table {
@@ -491,4 +490,18 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification-icon {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    transition: transform 0.2s, color 0.2s;
+   
+}
+
+.notification-icon:hover {
+    transform: scale(1.2);
 }
